@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Enter Amount:</label>
+		<input type="text" id="result">
+			<input type="button" value="OK" onclick="Enter()">
 
+<script type="text/javascript">
+
+	function Enter()
+{
+	
+	var num1 = Number(document.getElementById('result').value);
+	if  (isNaN(num1) == true)
+	{
+		alert('AMOUNT IS NOT A NUMBER');
+	}
+	else
+	{
+		if (num1 %100 == 0)
+		{
+			alert('AMOUNT ACCEPTED');
+		}
+		else
+		{
+			alert('AMOUNT NOT ACCEPTED');
+		}
+	}
+
+}
+
+
+</script>			
+</body>
+</html>
