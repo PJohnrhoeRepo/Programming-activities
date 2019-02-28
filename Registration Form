@@ -6,10 +6,13 @@
 <body>
 	<label>First Name: </label><br>
 		<input type="text" id="fname"><br>
+		<br>
 	<label>Last Name: </label><br>
 		<input type="text" id="lname"><br>
+		<br>
 	<label>Middle Name: </label><br>
 		<input type="text" id="mname"><br>
+		<br>
 	<br>
 	<select id="strand">
 		<option>ICT</option>
@@ -110,12 +113,12 @@
 		{
 			if (SC[k].checked)
 			{
-				document.getElementById('Out6').innerHTML = "Status: "+ SC[k].value;
+				document.getElementById('Out6').innerHTML = "Schedule: "+ SC[k].value;
 			}
 		}
 
 	var InI = document.getElementsByName('interested');
-	var selected="";
+	var selected = "";
 		for (var l = 0; l < InI.length; l++)
 		{
 		if (InI[l].checked)
