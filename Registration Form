@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>First Name: </label><br>
+		<input type="text" id="fname"><br>
+	<label>Last Name: </label><br>
+		<input type="text" id="lname"><br>
+	<label>Middle Name: </label><br>
+		<input type="text" id="mname"><br>
+	<br>
+	<select id="strand">
+		<option>ICT</option>
+		<option>HUMMS</option>
+		<option>ABM</option>
+	</select><br>
+	<br>	
+	<label>Gender: </label><br>	
+		<input type="radio" name="gender" value="Male">Male		
+		<input type="radio" name="gender" value="Female">Female
+	<br>
+	<br>	
+	<label>Status: </label><br>	
+		<input type="radio" name="status" value="Single">Single
+		<input type="radio" name="status" value="Married">Married
+		<input type="radio" name="status" value="Separated">Separated
+		<input type="radio" name="status" value="Widowed">Widowed
+	<br>
+	<br>	
+	<label>Schedule: </label><br>
+		<input type="radio" name="schedule" value="Morning">Morning		
+		<input type="radio" name="schedule" value="Afternoon">Afternoon
+	<br>
+	<br>
+	<label>Interested In: </label><br>	
+	<input type="checkbox" name="interested" value="Computer Programming">Computer Programming
+	<br>	
+	<input type="checkbox" name="interested" value="Web Designing">Web Designing
+	<br>	
+	<input type="checkbox" name="interested" value="Accounting">Accounting				 
+	<br>	
+	<input type="checkbox" name="interested" value="Marketing">Marketing
+	<br>	
+	<input type="checkbox" name="interested" value="Others">Others
+	<br>
+	<br>	
+	<button onclick="Form()">SAVE</button>
+
+	<h1>Output: </h1>
+	<h2 id="Out"></h2>
+	<h2 id="Out1"></h2>
+	<h2 id="Out2"></h2>
+	<h2 id="Out3"></h2>
+	<h2 id="Out4"></h2>
+	<h2 id="Out5"></h2>
+	<h2 id="Out6"></h2>
+	<h2 id="Out7"></h2>
+
+<script type="text/javascript">
+
+	function Form()
+{
+
+	var Fname = document.getElementById('fname');
+	{
+		document.getElementById('Out').innerHTML = "First Name: "+fname.value;
+	}
+
+	var Lname = document.getElementById('lname');
+	{
+		document.getElementById('Out1').innerHTML = "Last Name: "+lname.value;
+	}
+
+	var	Mname = document.getElementById('mname');
+	{
+		document.getElementById('Out2').innerHTML = "Middle Name: "+mname.value;
+	}
+
+	var strOP = document.getElementById('strand').options;
+ 	var strINDEX = document.getElementById('strand').selectedIndex;
+ 	var selected = strOP[strINDEX].value;
+ 	{
+ 		document.getElementById('Out3').innerHTML = "Strand: "+selected;
+ 	}
+
+ 	var G = document.getElementsByName('gender');
+		for (var i = 0; i < G.length; i++)
+		{
+			if (G[i].checked)
+			{
+				document.getElementById('Out4').innerHTML = "Gender: "+ G[i].value;
+				break;
+			}
+
+		}
+
+	var S = document.getElementsByName('status');
+		for (var j = 0; j < S.length; j++)
+		{
+			if (S[j].checked)
+			{
+				document.getElementById('Out5').innerHTML = "Status: "+ S[j].value;
+			}
+		}
+
+	var SC = document.getElementsByName('schedule');
+		for (var k = 0; k < SC.length; k++)
+		{
+			if (SC[k].checked)
+			{
+				document.getElementById('Out6').innerHTML = "Status: "+ SC[k].value;
+			}
+		}
+
+	var InI = document.getElementsByName('interested');
+	var selected="";
+		for (var l = 0; l < InI.length; l++)
+		{
+		if (InI[l].checked)
+			{
+				selected+=InI[l].value + ", ";
+			}
+
+			}
+			document.getElementById('Out7').innerHTML = "Interested In: "+selected;
+			}
+
+
+
+	
+</script>
+</html>
