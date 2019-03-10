@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="App.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title></title>
+</head>
+<body>
+
+<div class="header">
+  <h2>Welcome To Msweets!</h2>
+</div>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="w3-container">
+  <h2>Card Example</h2>
+
+  <div class="w3-card-4 w3-dark-grey" style="width:30%">
+
+    <div class="w3-container w3-center">
+      <h3>Friend Request</h3>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>< Chocolate Name: ></h5>
+
+      <div class="w3-section">
+        <a href="AppWebp1.html" class="w3-button w3-green">Preview</a>
+        <a href="" class="w3-button w3-green">Preview</a>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="App.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title></title>
+</head>
+<body>
+
+	<div class="header">
+		<h2>Welcome To Msweets!</h2>
+	</div>
+
+	<ul>
+		<li><a href="App.html">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<div align="center">
+		<img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" class="w3-border w3-padding" alt="Alps" width="30%" height="30%">
+
+		<div class="container">
+			<h2>You'd better taste one of the most deliciousdsjfgsdkjhfds</h2>
+		</div>
+	</div>
+
+	
+
+</body>
+</html>
+
+
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b35900;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+div h2
+{
+  text-align: center;
+}
+
