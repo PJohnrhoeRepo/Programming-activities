@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <title></title>
 </head>
-<body>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA">
 
 
 <div>
@@ -20,82 +20,161 @@
   <li><a href="#contact">History</a></li>
 </ul>
 <br>
-<h2 style="text-align: center;">Chocolates</h2>
+<h2></h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <h2></h2>
        <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
       <h5>Mochamilla</h5>
       <a href="App1.html" class="w3-button w3-green">Preview</a>
-      <a href="" class="w3-button w3-blue">Order now!</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
 </div>
+
 <br>
+
+<h2 style="text-align: center; background-color: pink">Chocolates</h2>
 <div class="row">
   <div class="column">
     <div class="card">
        <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
       <h5>Mochamilla</h5>
       <a href="App1.html" class="w3-button w3-green">Preview</a>
-      <a href="" class="w3-button w3-blue">Order now!</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
     </div>
   </div>
 </div>
+
+<br>
+
+<h2 style="text-align: center; background-color: pink">Chocolates</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<h2 style="text-align: center; background-color: pink">Chocolates</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
+      <h5>Mochamilla</h5>
+      <a href="App1.html" class="w3-button w3-green">Preview</a>
+    </div>
+  </div>
+</div>
+
 
 
 
 </body>
 </html>
+
+
+
+
 
 
 
@@ -114,18 +193,19 @@
 		<li><a href="#contact">Contact</a></li>
 	</ul>
 	<br>
-	<div align="center">
-		<img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" class="w3-border w3-padding" alt="Alps" width="30%" height="30%">
-
-		<div class="container">
-			<h2>You'd better taste one of the most deliciousdsjfgsdkjhfds</h2>
-		</div>
+	<img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" class="w3-border w3-padding" alt="Alps" width="30%" height="30%" style="float: left;">
+	<div class="container">
+		<h2>You'd better taste one of the most deliciousdsjfgsdkjhfds</h2>
 	</div>
+
+
 
 	
 
 </body>
 </html>
+
+
 
 
 
@@ -206,4 +286,9 @@ li a:hover {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.container
+{
+  padding-left: 100px;
 }
