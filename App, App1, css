@@ -9,7 +9,7 @@
 
 
 <div>
-  <img src="https://media.istockphoto.com/vectors/candy-and-sweets-cartoon-doodle-design-cute-background-concept-for-vector-id907057016" width="100%">
+  <img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t1.15752-9/54730547_489756131557141_5385954173902651392_n.jpg?_nc_cat=102&_nc_eui2=AeEnrEfcpTpTD5HPJTepdraPxsjJMEMyWLWMP42y7imJPrCxYEVf7tsFieqXt--vwKV-DgRz3VsV0Juz_i7-5qOzSbqfWXswIGaNSbxmJVLKgA&_nc_ht=scontent.fceb2-2.fna&oh=5c8cdbff5b46627c785a2c4cb1a576a3&oe=5D25016B" width="100%">
 </div>
 
 
@@ -26,7 +26,7 @@
     <div class="card">
        <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
       <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-green">Preview</a>
+      <a href="App1.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 
@@ -171,10 +171,6 @@
 
 </body>
 </html>
-
-
-
-
 
 
 
@@ -198,15 +194,133 @@
 		<h2>You'd better taste one of the most deliciousdsjfgsdkjhfds</h2>
 	</div>
 
+<div class="container">
+	<label>First Name:</label>
+	<input type="text" id="fn">
+	<br><br>
+	<label>Last Name:</label>
+	<input type="text" id="ln">
+	<br><br>
+	<label>Address:</label>
+	<select id="address">
+		<option>Abucayan</option>
+		<option>Adlaon</option>
+		<option>Alang-alang</option>
+		<option>Alegria</option>
+		<option>Alpaco</option>
+		<option>Agus</option>
+		<option>Bacayan</option>
+		<option>Baliwagan</option>
+		<option>Bangbang</option>
+		<option>Basak</option>
+		<option>Buaya</option>
+		<option>Bulacao</option>
+		<option>Cabadiangan</option>
+		<option>Cabagdalan</option>
+		<option>Cahumayan</option>
+		<option>Calawisan</option>
+		<option>Capitol Site</option>
+		<option>Catarman</option>
+		<option>Dallangayan Este</option>
+		<option>Dapitan</option>
+		<option>Day‑as</option>
+		<option>Duangan</option>
+		<option>Dunggoan</option>
+		<option>Estaca</option>
+		<option>Ermita</option>
+		<option>Gaas</option>
+		<option>Guadalupe</option>
+		<option>Hingatmonan</option>
+		<option>Ilocanos Sur</option>
+		<option>Lamesa</option>
+		<option>Lahug</option>
+		<option>La Union</option>
+		<option>Looc</option>
+		<option>Maghaway</option>
+		<option>Matun‑og	</option>
+		<option>Mayana</option>
+		<option>Mulao</option>
+		<option>Nangka</option>
+		<option>North Poblacion</option>
+		<option>Oeste</option>
+		<option>Opao</option>
+		<option>Pampangga</option>
+		<option>Pasil</option>
+		<option>Pajac</option>
+		<option>Pondol</option>
+		<option>Pooc</option>
+		<option>Sacsac</option>
+		<option>Sambag I</option>
+		<option>San Miguel</option>
+		<option>Santa Cruz-Santo Niño</option>
+		<option>San Vicente</option>
+		<option>San Roque</option>
+		<option>Subangdaku</option>
+		<option>Tabok</option>
+		<option>Tabunan</option>
+		<option>Vito</option>
+		<option>Taytay</option>
+		<option>Tabunan</option>
+		<option>Tabunok</option>
+		<option>Tangke</option>
+		<option>Tapul</option>
+		<option>Tubigan</option>
+		<option>Umapad</option>
+		<option>West Poblacion</option>
+		<option>Tapul</option>
+	</select>
 
+	<label>City:</label>
+	<select id="city">
+		<option>Balamban City</option>
+		<option>Cebu City</option>
+		<option>Compostela City</option>
+		<option>Cordova City</option>
+		<option>Danao City</option>	
+		<option>Lapu-lapu CIty</option>
+		<option>Mandaue City</option>
+		<option>Naga City</option>
+		<option>San Fernando City</option>
+		<option>Talisay City</option>
+	</select>
+	<br><br>
+	<input type="button" value="check" onclick="requirements.result()">
+	<h1>Output:</h1>
+	<h1 id="result"></h1>
 
-	
+</div>
+	<script type="text/javascript">
+		var requirements = {
+			firstname:"",
+			lastname:"",
+			address:"",
+			cities:"",
 
+			getvalues: function () {
+				this.firstname = document.getElementById("fn").value;
+				this.lastname = document.getElementById("ln").value;
+
+				var addressindex=document.getElementById("address").selectedIndex;
+				var selectaddress=document.getElementById("address").options;
+				this.address=selectaddress[addressindex].value;
+
+				var cityindex=document.getElementById("city").selectedIndex;
+				var selectcity=document.getElementById("city").options;
+				this.cities=selectcity[cityindex].value;
+			},
+			result: function() {
+				this.getvalues();
+				document.getElementById("result").innerHTML =  "<label>Thank you for ordering Mr/Ms </label>" + this.firstname + " " + this.lastname + " " + "your order will be delivered at " + this.address + " " + this.cities;
+			}
+		}
+		
+	</script>
 </body>
 </html>
 
 
 
+	
 
 
 
