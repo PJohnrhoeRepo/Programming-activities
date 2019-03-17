@@ -177,7 +177,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -198,36 +197,28 @@
 	<div class="container">
 		<h2>You'd better taste our Mochamilla at its high sweetness!</h2>
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	
 
-	<div style="padding-left: 500px;">
+
+<button id="myBtn" class="open-button" onclick="openForm()">Order Form</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div>
 	<h2>Cash on delivery upon orders</h2>
 	<label>First Name:</label>
-	<input type="text" id="fn">
+	<input type="text" id="fn" placeholder="John">
 	<br><br>
 	<label>Last Name:</label>
-	<input type="text" id="ln">
+	<input type="text" id="ln" placeholder="Doe">
 	<br><br>
 	<label>Contact #:</label>
-	<input type="tel" id="numb" required>
+	<input type="tel" id="numb" maxlength="11" placeholder="09" required>
 	<br><br>
 	<label>Quantity: </label>
-	<select id="strand">
+	<select id="quan">
 		<option>1</option>
 		<option>2</option>
 		<option>3</option>
@@ -325,13 +316,46 @@
 	<br><br>
 	<input type="button" value="Proceed" onclick="requirements.result()">
 </div>
-	<h1 id="result" style="padding-left: 80px;"></h1>
+	<h1 id="result" style="background-color: #ff0066;"></h1>
+
+
+
+  </div>
+  
+  
+
+</div>
 
 
 
 
 
 <script type="text/javascript">
+
+		function openForm() {
+		  document.getElementById("myForm").style.display = "block";
+		}
+
+
+		var modal = document.getElementById('myModal');
+
+		var btn = document.getElementById("myBtn");
+
+		var span = document.getElementsByClassName("close")[0];
+
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
 		var requirements = {
 			firstname:"",
 			lastname:"",
@@ -362,14 +386,14 @@
 				var selectcity=document.getElementById("city").options;
 				this.cities=selectcity[cityindex].value;
 
-				var strOP = document.getElementById('strand').options;
- 				var strINDEX = document.getElementById('strand').selectedIndex;
+				var strOP = document.getElementById('quan').options;
+ 				var strINDEX = document.getElementById('quan').selectedIndex;
  				this.quantity = strOP[strINDEX].value;
 
 			},
 			result: function() {
 				this.getvalues();
-				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will text you at this contact # " + this.number +" to ensure your order. After we processed your order of this product at this quantity of " + this.quantity + ", we will delivered it at " + this.address + " " + this.cities + ". Thank you!";
+				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will text you at this contact # " + this.number +" to ensure your order. After we processed your order of this product at  quantity of " + this.quantity + ", we will delivered it at " + this.address + " " + this.cities + ". Thank you!";
 			}
 		}
 
@@ -377,6 +401,7 @@
 	</script>
 </body>
 </html>
+
 
 
 
@@ -461,4 +486,54 @@ li a:hover {
 .container
 {
   padding-left: 100px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ff66cc;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.open-button {
+  background-color: #ff66cc;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
 }
