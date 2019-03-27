@@ -20,148 +20,148 @@
   <li><a href="#contact">History</a></li>
 </ul>
 <br>
-<h2></h2>
+<h2 style="text-align: center; background-color: pink">Chocolates</h2>
 <div class="row">
   <div class="column">
     <div class="card">
        <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
+      <h5>Bayard's</h5>
       <a href="App1.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t1.15752-9/48359236_2239000626353519_4541531219455639552_n.jpg?_nc_cat=104&_nc_oc=AQkcFFLMxTVavBBOuzwTJFh2-bK9WPSN3t5D7WJPNx0ptT1sih5m6chBJjYS5mj2O0Y&_nc_ht=scontent.fceb2-2.fna&oh=7ca1181eeb45d2e904f9e638775de860&oe=5D192FF7" alt="Avatar" style="width:50%">
+      <h5>Ferrero Rocher</h5>
+      <a href="App2.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t1.15752-9/53934104_2224002244531450_8364271465465380864_n.jpg?_nc_cat=104&_nc_oc=AQlWNiEwgCCPOrG-3oInQGjK7KopP6Ie5DX3TeNwWC1Sku6WGMN8PKsI-0pQwFhMm0Q&_nc_ht=scontent.fceb2-2.fna&oh=83fdc49ad22a82ced271aedbfea4d642&oe=5D1077C7" alt="Avatar" style="width:50%">
+      <h5>Godiva</h5>
+      <a href="App3.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://cdn.shopify.com/s/files/1/2622/7352/products/817ef9245ba68370469ed4731625329b_1024x1024.jpg?v=1544661677" alt="Avatar" style="width:50%">
+      <h5>Dark Chocolate Corn Flakes</h5>
+      <a href="App4.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 </div>
 
 <br>
 
-<h2 style="text-align: center; background-color: pink">Chocolates</h2>
+<h2 style="text-align: center; background-color: pink">Cakes</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-       <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+       <img src="https://www.snackncake.com/postpic/2015/08/happy-birthday-cake-with-name_115865.jpg" alt="Avatar" style="width:50%">
+      <h5>SnacknCake</h5>
+      <a href="App5.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://nutsaboutcakes.com/wp-content/uploads/2017/07/Perfect-Gentleman-cream.jpg" alt="Avatar" style="width:50%">
+      <h5>Nuts</h5>
+      <a href="App6.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://i7.fnp.com//images/pr/l/chocolate-cake_1.jpg" alt="Avatar" style="width:50%">
+      <h5>Kolkata</h5>
+      <a href="App7.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://www.paradisebakers.com/media/catalog/product/cache/1/small_image/300x/17f82f742ffe127f42dca9de82fb58b1/p/a/paradise-shoot00438-tr.jpg" alt="Avatar" style="width:50%">
+      <h5>Raspberry</h5>
+      <a href="App8.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 </div>
 
 <br>
 
-<h2 style="text-align: center; background-color: pink">Chocolates</h2>
+<h2 style="text-align: center; background-color: pink">Donuts</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-       <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+       <img src="https://ph.phonebooky.com/blog/wp-content/uploads/2015/06/Dunkin-Donuts-copy-2.jpg" alt="Avatar" style="width:50%">
+      <h5>Dunkin</h5>
+      <a href="App9.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/7c/94/b4/photo1jpg.jpg" alt="Avatar" style="width:50%">
+      <h5>Krispy Kreme</h5>
+      <a href="App10.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://s3-media3.fl.yelpcdn.com/bphoto/Xwqrlt62-WC9ARCnfltdEg/348s.jpg" alt="Avatar" style="width:50%">
+      <h5>Donut King</h5>
+      <a href="App11.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://cdn.phonebooky.com/blog/wp-content/uploads/2018/04/26162350/42068891_2063941197251512_6866657701962646682_n1.jpg"Avatar" style="width:50%">
+      <h5>Flour Jar</h5>
+      <a href="App12.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 </div>
 
 <br>
 
-<h2 style="text-align: center; background-color: pink">Chocolates</h2>
+<h2 style="text-align: center; background-color: pink">Candies</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-       <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqq7cin0IapUINPh0ZVegh-cK9vaypItQb6ZeGNQf76xbGzms" alt="Avatar" style="width:50%">
+      <h5>Toffee</h5>
+      <a href="App13.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/61bxcSnblJL._SX355_.jpg" alt="Avatar" style="width:50%">
+      <h5>Glitterati Italian</h5>
+      <a href="App14.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pOSgnfsg2NY3M4IbzctC14LRbhMpg5-ckZ6xNLZMzPSu5v1f" alt="Avatar" style="width:50%">
+      <h5>Liberty</h5>
+      <a href="App15.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" alt="Avatar" style="width:50%">
-      <h5>Mochamilla</h5>
-      <a href="App1.html" class="w3-button w3-pink">Order now</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWkZUyjSO4ol5fkWBtxOt9LwEGq7ogXjWZ-r2aBgHZj-U6rr0l" alt="Avatar" style="width:50%">
+      <h5>French Marshmallow Candy Drops</h5>
+      <a href="App16.html" class="w3-button w3-pink">Order now</a>
     </div>
   </div>
 </div>
@@ -171,369 +171,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="App.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<title></title>
-</head>
-<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA"	>
-	<ul>
-		<li><a href="App.html">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
-	</ul>
-	<br>
-	<h2 style="padding-left: 100px;">Mochamilla</h2>
-	<img src="https://www.jamescandy.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bayards-signature-chocolates.jpg" class="w3-border w3-padding" alt="Alps" width="30%" height="30%" style="float: left; padding-left: 100px;">
-
-	<div class="container">
-		<h2>You'd better taste our Mochamilla at its high sweetness!</h2>
-	</div>
-	
-
-
-<button id="myBtn" class="open-button" onclick="openForm()">Order Form</button>
-
-<div id="myModal" class="modal">
-
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <div>
-	<h2>Cash on delivery upon orders</h2>
-	<label>First Name:</label>
-	<input type="text" id="fn" placeholder="John">
-	<br><br>
-	<label>Last Name:</label>
-	<input type="text" id="ln" placeholder="Doe">
-	<br><br>
-	<label>Contact #:</label>
-	<input type="tel" id="numb" maxlength="11" placeholder="09" required>
-	<br><br>
-	<label>Quantity: </label>
-	<select id="quan">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-		<option>4</option>
-		<option>5</option>
-		<option>6</option>
-		<option>7</option>
-		<option>8</option>
-		<option>9</option>
-		<option>10</option>
-	</select><br>
-	<br>
-	<label>Address:</label>
-	<select id="address">
-		<option>Abucayan</option>
-		<option>Adlaon</option>
-		<option>Alang-alang</option>
-		<option>Alegria</option>
-		<option>Alpaco</option>
-		<option>Agus</option>
-		<option>Bacayan</option>
-		<option>Baliwagan</option>
-		<option>Bangbang</option>
-		<option>Basak</option>
-		<option>Buaya</option>
-		<option>Bulacao</option>
-		<option>Cabadiangan</option>
-		<option>Cabagdalan</option>
-		<option>Cahumayan</option>
-		<option>Calawisan</option>
-		<option>Capitol Site</option>
-		<option>Catarman</option>
-		<option>Dallangayan Este</option>
-		<option>Dapitan</option>
-		<option>Day‑as</option>
-		<option>Duangan</option>
-		<option>Dunggoan</option>
-		<option>Estaca</option>
-		<option>Ermita</option>
-		<option>Gaas</option>
-		<option>Guadalupe</option>
-		<option>Hingatmonan</option>
-		<option>Ilocanos Sur</option>
-		<option>Lamesa</option>
-		<option>Lahug</option>
-		<option>La Union</option>
-		<option>Looc</option>
-		<option>Maghaway</option>
-		<option>Matun‑og	</option>
-		<option>Mayana</option>
-		<option>Mulao</option>
-		<option>Nangka</option>
-		<option>North Poblacion</option>
-		<option>Oeste</option>
-		<option>Opao</option>
-		<option>Pampangga</option>
-		<option>Pasil</option>
-		<option>Pajac</option>
-		<option>Pondol</option>
-		<option>Pooc</option>
-		<option>Sacsac</option>
-		<option>Sambag I</option>
-		<option>San Miguel</option>
-		<option>Santa Cruz-Santo Niño</option>
-		<option>San Vicente</option>
-		<option>San Roque</option>
-		<option>Subangdaku</option>
-		<option>Tabok</option>
-		<option>Tabunan</option>
-		<option>Vito</option>
-		<option>Taytay</option>
-		<option>Tabunan</option>
-		<option>Tabunok</option>
-		<option>Tangke</option>
-		<option>Tapul</option>
-		<option>Tubigan</option>
-		<option>Umapad</option>
-		<option>West Poblacion</option>
-		<option>Tapul</option>
-	</select>
-
-	<label>City:</label>
-	<select id="city">
-		<option>Balamban City</option>
-		<option>Cebu City</option>
-		<option>Compostela City</option>
-		<option>Cordova City</option>
-		<option>Danao City</option>	
-		<option>Lapu-lapu CIty</option>
-		<option>Mandaue City</option>
-		<option>Naga City</option>
-		<option>San Fernando City</option>
-		<option>Talisay City</option>
-	</select>
-	<br><br>
-	<input type="button" value="Proceed" onclick="requirements.result()">
-</div>
-	<h1 id="result" style="background-color: #ff0066;"></h1>
-
-
-
-  </div>
-  
-  
-
-</div>
-
-
-
-
-
-<script type="text/javascript">
-
-		function openForm() {
-		  document.getElementById("myForm").style.display = "block";
-		}
-
-
-		var modal = document.getElementById('myModal');
-
-		var btn = document.getElementById("myBtn");
-
-		var span = document.getElementsByClassName("close")[0];
-
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
-
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-		    modal.style.display = "none";
-		  }
-		}
-		var requirements = {
-			firstname:"",
-			lastname:"",
-			number:"",
-			address:"",
-			cities:"",
-			quantity:"",
-
-			getvalues: function () {
-				this.firstname = document.getElementById("fn").value;
-				this.lastname = document.getElementById("ln").value;
-				this.number = Number(document.getElementById("numb").value);
-				if (isNaN(this.number))
-        		{
-          		alert("Contact # not a number");
-          		document.getElementById("result").innerHTML = "";
-       			}
-        		else
-       			{
-
-        		}
-
-				var addressindex=document.getElementById("address").selectedIndex;
-				var selectaddress=document.getElementById("address").options;
-				this.address=selectaddress[addressindex].value;
-
-				var cityindex=document.getElementById("city").selectedIndex;
-				var selectcity=document.getElementById("city").options;
-				this.cities=selectcity[cityindex].value;
-
-				var strOP = document.getElementById('quan').options;
- 				var strINDEX = document.getElementById('quan').selectedIndex;
- 				this.quantity = strOP[strINDEX].value;
-
-			},
-			result: function() {
-				this.getvalues();
-				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will text you at this contact # " + this.number +" to ensure your order. After we processed your order of this product at  quantity of " + this.quantity + ", we will delivered it at " + this.address + " " + this.cities + ". Thank you!";
-			}
-		}
-
-		
-	</script>
-</body>
-</html>
-
-
-
-
-
-
-
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ff66cc;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #cc66ff;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.container
-{
-  padding-left: 100px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #ff66cc;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-.open-button {
-  background-color: #ff66cc;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}
