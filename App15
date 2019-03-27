@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="App.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title></title>
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA"	>
+	<ul>
+		<li><a href="App.html">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<br>
+	<h2 style="padding-left: 100px;">Liberty</h2>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pOSgnfsg2NY3M4IbzctC14LRbhMpg5-ckZ6xNLZMzPSu5v1f" class="w3-border w3-padding" alt="Alps" width="30%" height="30%" style="float: left; padding-left: 100px;">
+
+	<div class="container">
+		<h2>You'd better taste our Liberty at its high sweetness!</h2>
+	</div>
+	
+
+
+<button id="myBtn" class="open-button" onclick="openForm()">Order Form</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div>
+	<h2>Cash on delivery upon orders</h2>
+	<label>First Name:</label>
+	<input type="text" id="fn" placeholder="John">
+	<br><br>
+	<label>Last Name:</label>
+	<input type="text" id="ln" placeholder="Doe">
+	<br><br>
+	<label>Contact #:</label>
+	<input type="tel" id="numb" maxlength="11" placeholder="09" required>
+	<br><br>
+	<label>Quantity: </label>
+	<select id="quan">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+	</select><br>
+	<br>
+	<label>Address:</label>
+	<select id="address">
+		<option>Abucayan</option>
+		<option>Adlaon</option>
+		<option>Alang-alang</option>
+		<option>Alegria</option>
+		<option>Alpaco</option>
+		<option>Agus</option>
+		<option>Bacayan</option>
+		<option>Baliwagan</option>
+		<option>Bangbang</option>
+		<option>Basak</option>
+		<option>Buaya</option>
+		<option>Bulacao</option>
+		<option>Cabadiangan</option>
+		<option>Cabagdalan</option>
+		<option>Cahumayan</option>
+		<option>Calawisan</option>
+		<option>Capitol Site</option>
+		<option>Catarman</option>
+		<option>Dallangayan Este</option>
+		<option>Dapitan</option>
+		<option>Day‑as</option>
+		<option>Duangan</option>
+		<option>Dunggoan</option>
+		<option>Estaca</option>
+		<option>Ermita</option>
+		<option>Gaas</option>
+		<option>Guadalupe</option>
+		<option>Hingatmonan</option>
+		<option>Ilocanos Sur</option>
+		<option>Lamesa</option>
+		<option>Lahug</option>
+		<option>La Union</option>
+		<option>Looc</option>
+		<option>Maghaway</option>
+		<option>Matun‑og	</option>
+		<option>Mayana</option>
+		<option>Mulao</option>
+		<option>Nangka</option>
+		<option>North Poblacion</option>
+		<option>Oeste</option>
+		<option>Opao</option>
+		<option>Pampangga</option>
+		<option>Pasil</option>
+		<option>Pajac</option>
+		<option>Pondol</option>
+		<option>Pooc</option>
+		<option>Sacsac</option>
+		<option>Sambag I</option>
+		<option>San Miguel</option>
+		<option>Santa Cruz-Santo Niño</option>
+		<option>San Vicente</option>
+		<option>San Roque</option>
+		<option>Subangdaku</option>
+		<option>Tabok</option>
+		<option>Tabunan</option>
+		<option>Vito</option>
+		<option>Taytay</option>
+		<option>Tabunan</option>
+		<option>Tabunok</option>
+		<option>Tangke</option>
+		<option>Tapul</option>
+		<option>Tubigan</option>
+		<option>Umapad</option>
+		<option>West Poblacion</option>
+		<option>Tapul</option>
+	</select>
+
+	<label>City:</label>
+	<select id="city">
+		<option>Balamban City</option>
+		<option>Cebu City</option>
+		<option>Compostela City</option>
+		<option>Cordova City</option>
+		<option>Danao City</option>	
+		<option>Lapu-lapu CIty</option>
+		<option>Mandaue City</option>
+		<option>Naga City</option>
+		<option>San Fernando City</option>
+		<option>Talisay City</option>
+	</select>
+	<br><br>
+	<input type="button" value="Proceed" onclick="requirements.result()">
+</div>
+	<h1 id="result" style="background-color: #ff0066;"></h1>
+
+
+
+  </div>
+  
+  
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+		function openForm() {
+		  document.getElementById("myForm").style.display = "block";
+		}
+
+
+		var modal = document.getElementById('myModal');
+
+		var btn = document.getElementById("myBtn");
+
+		var span = document.getElementsByClassName("close")[0];
+
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		var requirements = {
+			firstname:"",
+			lastname:"",
+			number:"",
+			address:"",
+			cities:"",
+			quantity:"",
+
+			getvalues: function () {
+				this.firstname = document.getElementById("fn").value;
+				this.lastname = document.getElementById("ln").value;
+				this.number = Number(document.getElementById("numb").value);
+				if (isNaN(this.number))
+        		{
+          		alert("Contact # not a number");
+          		document.getElementById("result").innerHTML = "";
+       			}
+        		else
+       			{
+
+        		}
+
+				var addressindex=document.getElementById("address").selectedIndex;
+				var selectaddress=document.getElementById("address").options;
+				this.address=selectaddress[addressindex].value;
+
+				var cityindex=document.getElementById("city").selectedIndex;
+				var selectcity=document.getElementById("city").options;
+				this.cities=selectcity[cityindex].value;
+
+				var strOP = document.getElementById('quan').options;
+ 				var strINDEX = document.getElementById('quan').selectedIndex;
+ 				this.quantity = strOP[strINDEX].value;
+
+			},
+			result: function() {
+				this.getvalues();
+				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will text you at this contact # " + this.number +" to ensure your order. After we processed your order of this product at  quantity of " + this.quantity + ", we will delivered it at " + this.address + " " + this.cities + ". Thank you!";
+			}
+		}
+
+		
+	</script>
+</body>
+</html>
