@@ -8,8 +8,6 @@
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA"	>
 	<ul>
 		<li><a href="App.html">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
 	</ul>
 	<br>
 	<h2 style="padding-left: 100px;">(₱ 299.00) Bayard's</h2>
@@ -38,7 +36,7 @@
 	<input type="text" id="ln" placeholder="Doe" onkeypress="return !onlyNumbers(event)">
 	<br><br>
 	<label>Contact #:</label>
-	<input type="text" id="extra7" maxlength="11" placeholder="09" onkeypress="return isNumber(event)" >
+	<input type="text" id="numb" maxlength="11" placeholder="09" onkeypress="return isNumber(event)" >
 	<br><br>
 	<label>Quantity: </label>
 	<select id="quan">
@@ -191,6 +189,7 @@
 			getvalues: function () {
 				this.firstname = document.getElementById("fn").value;
 				this.lastname = document.getElementById("ln").value;
+				this.number = document.getElementById("numb").value;
 
 				var addressindex = document.getElementById("address").selectedIndex;
 				var selectaddress = document.getElementById("address").options;
