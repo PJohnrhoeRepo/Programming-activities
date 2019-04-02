@@ -8,11 +8,9 @@
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA"	>
 	<ul>
 		<li><a href="App.html">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
 	</ul>
 	<br>
-	<h2 style="padding-left: 100px;">Glitterati Italian</h2>
+	<h2 style="padding-left: 100px;">(₱ 80.00) Glitterati Italian</h2>
 	<img src="https://images-na.ssl-images-amazon.com/images/I/61bxcSnblJL._SX355_.jpg" class="w3-border w3-padding" alt="Alps" width="30%" height="30%" style="float: left; padding-left: 100px;">
 
 	<div class="container">
@@ -30,13 +28,13 @@
     <div>
 	<h2>Cash on delivery upon orders</h2>
 	<label>First Name:</label>
-	<input type="text" id="fn" placeholder="John">
+	<input type="text" id="fn" placeholder="John" onkeypress="return !onlyNumbers(event)">
 	<br><br>
 	<label>Last Name:</label>
-	<input type="text" id="ln" placeholder="Doe">
+	<input type="text" id="ln" placeholder="Doe" onkeypress="return !onlyNumbers(event)">
 	<br><br>
 	<label>Contact #:</label>
-	<input type="tel" id="numb" maxlength="11" placeholder="09" required>
+	<input type="tel" id="numb" maxlength="11" placeholder="09" onkeypress="return isNumber(event)">
 	<br><br>
 	<label>Quantity: </label>
 	<select id="quan">
@@ -138,6 +136,7 @@
 	<input type="button" value="Proceed" onclick="requirements.result()">
 </div>
 	<h1 id="result" style="background-color: #ff0066;"></h1>
+	<h1 id="result1"></h1>
 
 
 
@@ -188,16 +187,7 @@
 			getvalues: function () {
 				this.firstname = document.getElementById("fn").value;
 				this.lastname = document.getElementById("ln").value;
-				this.number = Number(document.getElementById("numb").value);
-				if (isNaN(this.number))
-        		{
-          		alert("Contact # not a number");
-          		document.getElementById("result").innerHTML = "";
-       			}
-        		else
-       			{
-
-        		}
+				this.number = document.getElementById("numb").value;
 
 				var addressindex=document.getElementById("address").selectedIndex;
 				var selectaddress=document.getElementById("address").options;
@@ -211,12 +201,50 @@
  				var strINDEX = document.getElementById('quan').selectedIndex;
  				this.quantity = strOP[strINDEX].value;
 
+				this.total = 80 * this.quantity
+ 				{
+ 					document.getElementById('result1').innerHTML = "Total Payment: 80 x " + this.quantity + " = " +
+"₱" + this.total;
+ 				}
 			},
 			result: function() {
 				this.getvalues();
-				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will text you at this contact # " + this.number +" to ensure your order. After we processed your order of this product at  quantity of " + this.quantity + ", we will delivered it at " + this.address + " " + this.cities + ". Thank you!";
+				document.getElementById("result").innerHTML =  "We will be processing your order Mr/Ms. " + this.firstname + " " + this.lastname + " " + "we will be texting	 you at this contact # " + this.number +" to ensure your order. After we processed your order of this product." + " We will deliver it at " + this.address + " " + this.cities + ". Thank you!"
 			}
 		}
+
+
+
+function onlyNumbers(e)
+	{
+
+    var keynum;
+    var keychar;
+    var numcheck;
+
+    if(window.event)
+    {
+        keynum = e.keyCode;
+    }
+    else if(e.which)
+    {
+        keynum = e.which;
+    }
+    keychar = String.fromCharCode(keynum);
+    numcheck = /\d/;
+    return numcheck.test(keychar);
+
+	}
+
+	function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+
 
 		
 	</script>
