@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="App.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title></title>
 </head>
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_yYfDGhrNj3fm017sevEPIBpxxBi_MkPnAQAPxZSDU3LEnxA">
@@ -15,9 +16,6 @@
 
 <ul>
   <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#contact">History</a></li>
 </ul>
 <br>
 <h2 style="text-align: center; background-color: pink">Chocolates</h2>
@@ -171,3 +169,4 @@
 
 </body>
 </html>
+ 
