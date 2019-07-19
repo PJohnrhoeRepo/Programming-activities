@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+    int num1, num2;
+    int sum, diff, pro, quo;
+    
+    cout << "Enter first number:";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+
+sum = num1 + num2;
+diff = num1 - num2;
+pro = num1 * num2;
+quo = num1 / num2;
+    
+    
+    cout << "The sum of " << num1 << " + " << num2 << " = " << sum <<"\n";
+    
+    cout << "The difference of " << num1 << " - " << num2 << " = " << diff << "\n";
+    
+    cout << "The product of " << num1 << " x " << num2 << " = " << pro << "\n";
+    
+    cout << "The quotient of " << num1 << " ÷ " << num2 << " = " << quo << "\n";
+
+    return 0;
+}
