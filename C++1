@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main ()
+{
+    string name, sec;
+    float firstgrade, secondgrade, thirdgrade, fourthgrade, average;
+    
+    cout << "Enter Your Name" << "\n";
+    cin >> name;
+    cout << "Section:" << "\n";
+    cin >> sec;
+    cout << "Enter first grade" << "\n";
+    cin >> firstgrade;
+    cout << "Enter second grade" << "\n";
+    cin >> secondgrade;
+    cout << "third grade" << "\n";
+    cin >> thirdgrade;
+    cout << "fourth grade" << "\n";
+    cin >> fourthgrade;
+     
+     average= (firstgrade, secondgrade, thirdgrade, fourthgrade)/4;
+     cout << "Your Name: " << name<<"\n";
+     cout << "Section: " << sec << "\n";
+     cout << "Your average: " << average << "\n";
+     
+     
+     
+     return 0;
+}
