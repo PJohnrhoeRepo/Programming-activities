@@ -1,0 +1,41 @@
+
+package prince;
+import java.util.Scanner;
+
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    static Scanner in = new Scanner (System.in);
+    public static void main(String[] args) {
+
+        System.out.print("Enter Your Name: ");
+        String lname = in.nextLine();
+        System.out.println("Hi, " + lname);
+
+        System.out.print("Enter Your Product Purchased: ");
+        String ppurchase = in.nextLine();
+        System.out.println("You purchased " + ppurchase);
+
+        System.out.print("Enter Your Product Price: ");
+        double pprice = in.nextDouble();
+        System.out.println("You purchased " + pprice);
+
+        System.out.print("Enter Your Downpayment: ");
+        double downpayment = in.nextDouble();
+        System.out.println("Your Downpayment is " + downpayment);
+
+        System.out.print("Enter Your Months To Pay: ");
+        int months = in.nextInt();
+        System.out.println("Your Months To Pay " + months + " months");
+
+        double dpaymentint = (downpayment * 0.052);
+        double dpaymentmon = (downpayment / months);
+        double fpayment = (dpaymentint + dpaymentmon);
+        System.out.println("Your Full Payment in " + months + " Months is " + fpayment);
+
+
+
+    }
+}
