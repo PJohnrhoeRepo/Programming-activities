@@ -1,0 +1,70 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package javaapplication11;
+import java.util.Scanner;
+
+/**
+ *
+ * @author pc49
+ */
+public class Main1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    static Scanner in = new Scanner (System.in);
+    public static void main(String[] args) {
+       System.out.print("Enter Name: ");
+       String name = in.nextLine();
+       System.out.print("Enter Midterm: ");
+       int mid = in.nextInt();
+       System.out.print("Enter Final: ");
+       int fnl = in.nextInt();
+       System.out.println(sum(mid, fnl));
+       System.out.println(diff(mid, fnl));
+       System.out.println(prod(mid, fnl));
+       System.out.println(quo(mid, fnl));
+       //System.out.println(avg(mid, fnl));
+
+    }
+
+       public static String sum(int mid, int fnl) {
+
+       int sum = mid + fnl;
+       return "Sum of " + mid + " and " + fnl + " is " + sum;
+
+       }
+
+       public static String diff(int mid, int fnl) {
+
+       int diff = mid - fnl;
+       return "Difference of " + mid + " and " + fnl + " is " + diff;
+
+       }
+
+       public static String prod(int mid, int fnl) {
+
+       int prod = (mid * fnl);
+       return "Product of " + mid + " and " + fnl + " is " + prod;
+
+       }
+
+       public static String quo(int mid, int fnl) {
+
+       return 
+
+       }
+
+       public static String avg(int mid, int fnl) {
+
+       System.out.print("Average is: ")
+       return (mid + fnl) / 2
+
+       }
+
+
+}
+
