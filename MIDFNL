@@ -3,14 +3,14 @@
  * and open the template in the editor.
  */
 
-package javaapplication11;
+package javaapplication13;
 import java.util.Scanner;
 
 /**
  *
  * @author pc49
  */
-public class Main1 {
+public class Main {
 
     /**
      * @param args the command line arguments
@@ -27,44 +27,46 @@ public class Main1 {
        System.out.println(diff(mid, fnl));
        System.out.println(prod(mid, fnl));
        System.out.println(quo(mid, fnl));
-       //System.out.println(avg(mid, fnl));
+       System.out.println("Average: " + average(mid, fnl));
+       System.out.println(name + ", your average is " + average(mid, fnl));
+
+       
 
     }
 
        public static String sum(int mid, int fnl) {
 
        int sum = mid + fnl;
-       return "Sum of " + mid + " and " + fnl + " is " + sum;
+       return "Sum: " + sum;
 
        }
 
        public static String diff(int mid, int fnl) {
 
        int diff = mid - fnl;
-       return "Difference of " + mid + " and " + fnl + " is " + diff;
+       return "Difference: " + diff;
 
        }
 
        public static String prod(int mid, int fnl) {
 
        int prod = (mid * fnl);
-       return "Product of " + mid + " and " + fnl + " is " + prod;
+       return "Product: " + prod;
 
        }
 
        public static String quo(int mid, int fnl) {
 
-       return 
+       double quo = (mid / fnl);
+       return "Quotient: " + quo;
 
        }
 
-       public static String avg(int mid, int fnl) {
+       public static double average(int mid, int fnl) {
 
-       System.out.print("Average is: ")
-       return (mid + fnl) / 2
-
+       return (mid + fnl) / 2;
+      
        }
 
 
 }
-
