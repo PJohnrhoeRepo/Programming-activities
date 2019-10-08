@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<label>Content: </label>
+	<input type="text" name="" id="content0">
+
+<label>Originality: </label>
+	<input type="text" name="" id="originality0">
+
+<label>Coordination: </label>
+	<input type="text" name="" id="coordination0">
+
+<label>Costume: </label>
+	<input type="text" name="" id="costume0">
+
+<label>Audience Impact: </label>
+	<input type="text" name="" id="audience0">
+ 
+<br>
+<br>
+<h3 id="content1"></h3>
+<h3 id="originality1"></h3>
+<h3 id="coordination1"></h3>
+<h3 id="costume1"></h3>
+<h3 id="audience1"></h3>
+
+<h1 id="total1"></h1>
+
+<button onclick="Check()">Total</button>
+
+<script type="text/javascript">
+
+	function Check() {
+
+		var content = Number(document.getElementById('content0').value);
+		document.getElementById('content1').innerHTML = "Content: " + content;
+
+		var originality = Number(document.getElementById('originality0').value);
+		document.getElementById('originality1').innerHTML = "Originality: " + originality;
+
+		var coordination = Number(document.getElementById('coordination0').value);
+		document.getElementById('coordination1').innerHTML = "Coordination: " + coordination;
+
+		var costume = Number(document.getElementById('costume0').value);
+		document.getElementById('costume1').innerHTML = "Costume: " + costume;
+
+		var audience = Number(document.getElementById('audience0').value);
+		document.getElementById('audience1').innerHTML = "Audience Impact: " + audience;
+
+		var totaladd = content + originality + coordination + costume + audience;
+		var totalall = document.getElementById('total1').innerHTML = "Total: " + totaladd;
+
+
+
+	}
+	
+	
+
+
+</script>
+</body>
+</html>
