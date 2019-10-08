@@ -28,7 +28,7 @@
 <h3 id="costume1"></h3>
 <h3 id="audience1"></h3>
 
-<h1 id="total1"></h1>
+<h1 id="total1" style="color: green;"></h1>
 
 <button onclick="Check()">Total</button>
 
@@ -52,15 +52,12 @@
 		document.getElementById('audience1').innerHTML = "Audience Impact: " + audience;
 
 		var totaladd = content + originality + coordination + costume + audience;
-		var totalall = document.getElementById('total1').innerHTML = "Total: " + totaladd;
-
+		var totalall = document.getElementById('total1').innerHTML = "Total: " + totaladd + "/100";
 
 
 	}
 	
 	
-
-
 </script>
 </body>
 </html>
