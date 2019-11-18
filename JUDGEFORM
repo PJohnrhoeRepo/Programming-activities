@@ -4,29 +4,45 @@
 	<title></title>
 </head>
 <body>
+<h2>Performer's name:</h2>
+	<input type="text" name="" id="performer0">
+    <br>
+    <br>
+    <br>
 
 <label>Content: </label>
-	<input type="text" name="" id="content0">
+	<input type="text" name="" id="content0" maxlength="2" placeholder="/20">
+    <br>
+    <br>
 
 <label>Originality: </label>
-	<input type="text" name="" id="originality0">
+	<input type="text" name="" id="originality0" maxlength="2" placeholder="/20">
+    <br>
+    <br>
 
 <label>Coordination: </label>
-	<input type="text" name="" id="coordination0">
+	<input type="text" name="" id="coordination0" maxlength="2" placeholder="/20">
+    <br>
+    <br>
 
 <label>Costume: </label>
-	<input type="text" name="" id="costume0">
+	<input type="text" name="" id="costume0" maxlength="2" placeholder="/20">
+    <br>
+    <br>
 
 <label>Audience Impact: </label>
-	<input type="text" name="" id="audience0">
+	<input type="text" name="" id="audience0" maxlength="2" placeholder="/20">
+    <br>
+    <br>
  
 <br>
 <br>
-<h3 id="content1"></h3>
-<h3 id="originality1"></h3>
-<h3 id="coordination1"></h3>
-<h3 id="costume1"></h3>
-<h3 id="audience1"></h3>
+<h3 id="performer1"><i></i></h3>
+<h3 id="content1"><i></i></h3>
+<h3 id="originality1"><i></i></h3>
+<h3 id="coordination1"><i></i></h3>
+<h3 id="costume1"><i></i></h3>
+<h3 id="audience1"><i></i></h3>
 
 <h1 id="total1"></h1>
 
@@ -35,24 +51,51 @@
 <script type="text/javascript">
 
 	function Check() {
+    
+    	var performer = document.getElementById('performer0').value;
+        document.getElementById('performer1').innerHTML = "Performer's name: " + performer;
 
 		var content = Number(document.getElementById('content0').value);
 		document.getElementById('content1').innerHTML = "Content: " + content;
-
+       	
+        if (content == 0) {
+        alert('You have not input something to the Content field');
+        }
+        
 		var originality = Number(document.getElementById('originality0').value);
 		document.getElementById('originality1').innerHTML = "Originality: " + originality;
+        
+        if (originality == 0) {
+        alert('You have not input something to the Originality field');
+        }
 
 		var coordination = Number(document.getElementById('coordination0').value);
 		document.getElementById('coordination1').innerHTML = "Coordination: " + coordination;
+        
+        if (coordination == 0) {
+        alert('You have not input something to the Coordination field');
+        }
 
 		var costume = Number(document.getElementById('costume0').value);
 		document.getElementById('costume1').innerHTML = "Costume: " + costume;
+        
+        if (costume == 0) {
+        alert('You have not input something to the Costume field');
+        }
 
 		var audience = Number(document.getElementById('audience0').value);
 		document.getElementById('audience1').innerHTML = "Audience Impact: " + audience;
+        
+        if (audience == 0) {
+        alert('You have not input something to the Audience Impact field');
+        }
 
 		var totaladd = content + originality + coordination + costume + audience;
-		var totalall = document.getElementById('total1').innerHTML = "Total: " + totaladd;
+		var totalall = document.getElementById('total1').innerHTML = "Total: " + totaladd + "/100";
+        
+        if (totaladd > 100) {
+        alert('You have exceed to 100, Please check the numbers you inputted by clicking OK');
+        }
 
 
 
