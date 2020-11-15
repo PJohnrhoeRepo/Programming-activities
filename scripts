@@ -1,0 +1,462 @@
+<html>
+<head>
+  <title>Scripts</title>
+  <style type="text/css">
+
+    body {
+      background-image: url('op1.jpg');
+      background-repeat: no-repeat;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .center {
+       border: none;
+       color: white;
+       padding: 15px 25px;
+       text-align: center;
+       text-decoration: none;
+       display: block;
+       font-size: 14px;
+       margin: 4px 2px;
+       cursor: pointer;
+       background-color: #808080;
+       margin: auto;
+
+}
+    
+
+    .trheader
+    {
+      background-color: #D3D3D3;
+      color:  #000000 ;
+    }
+  	
+  	.element_html {
+		position: absolute;
+  		opacity: .01;
+  		height: 0;
+  		overflow: hidden;
+				}
+
+  </style>
+</head>
+
+<body>
+  
+
+<table style="width:100%">
+<tr class="trheader">
+    <th>OPENING</th>
+    <th>EMPATHY</th>
+    <th>MORE INFO</th>
+    <th>VERIFICATION</th>
+    <th>IDLE</th>
+    <th>CHAT TRANSCRIPT REQUEST</th>
+    <th>PROFANITY</th>
+    <th>CHANGING DNS</th>
+    <th>FURTHER HELP</th>
+    <th>SURVEY</th>
+    <th>CLOSING</th>
+  </tr>
+  <!--First Row-->
+  <tr>
+    <td>
+      <textarea class="element_html" id="myInput-opening1">Hi. My name is John and I will be happy to assist you today.</textarea>
+
+      <button class="center" onclick="myFunction1()">OPENING 1</button>
+    </td>
+
+    <td>
+      <textarea class="element_html" id="myInput-empathy1">I would like to sincerely apologize for any inconvenience caused by this issue, rest assured I will do my best to help you sort this out. </textarea>
+
+      <button class="center" onclick="myFunction5()">EMPATHY 1</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-moreinfo1">May I please have the domain name so I can check on it?</textarea>
+
+      <button class="center" onclick="myFunction8()">DOMAIN</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-verification1">Before we proceed, please help me verify your account by providing me your 4-digit Call-in PIN.
+
+You may refer to the below steps on how to get your Call-in PIN:
+1. Log in to your Account Manager.
+2. From your home page, click the 'Edit Profile'.
+3. On the Profile page, click on the 'Security' tab.</textarea>
+
+      <button class="center" onclick="myFunction11()">CALL-IN PIN</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-idle1">Please be reminded that I have not received any response from you for about 3 minutes already. Are you still there?
+
+If no response is received from you in the next 2 minutes, I will be manually closing this chat session to accommodate other customers waiting on queue. I suggest you put a new chat request if you still require further assistance. Thank you.</textarea>
+
+      <button class="center" onclick="myFunction12()">IDLE 1</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-transcript1">The request will be reviewed and and is still subject for approval. The request shall be attended on a confidential basis within (30) days of the request being received.</textarea>
+
+      <button class="center" onclick="myFunction14()">CHAT TRANSCRIPT REQUEST</button></td>
+    <td>
+      <textarea class="element_html" id="myInput-profanity1">Please accept my sincere apologies for any inconvenience this issue may have caused you. I understand that saying
+sorry does not make up for the inconvenience you have experienced, but I would really appreciate it if you could refrain from using such language so it would be a lot easier for me to find out how we can make this right for you.</textarea>
+
+      <button class="center" onclick="myFunction15()">PROFANITY 1</button></td>
+    </td>
+    <td>
+       <textarea class="element_html" id="myInput-dns1">Please be informed that changing name servers will take up to 2-4 hours to successfully propagate.</textarea>
+
+      <button class="center" onclick="myFunction16()">DNS 1</button></td>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-help1">Is there anything else I can help you with today?</textarea>
+
+      <button class="center" onclick="myFunction18()">HELP 1</button></td>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-survey1">Excellent! By the way, I hope it is not too much of a favor. You will be receiving a customer email survey at a later time asking how I assisted you, and if you could participate and spare at least 1-2 minutes of your time to answer that, it would be extremely appreciated and it will really make my day.</textarea>
+
+      <button class="center" onclick="myFunction20()">SURVEY 1</button></td>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-closing1">If you have other questions or require any of our help, please do not hesitate to contact us. Thank you for contacting us and have a great day.</textarea>
+
+      <button class="center" onclick="myFunction22()">CLOSING 1</button></td>
+    </td>
+  </tr>
+  <!--End First Row-->
+
+  <!--Second Row-->
+  <tr>
+    <td>
+      <textarea class="element_html" id="myInput-opening2">Hi. My name is John. How can I help you today?</textarea>
+
+      <button class="center" onclick="myFunction2()">OPENING 2</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-empathy2">I'm sorry to hear about your experience. I am with you on this. I'll make sure to do my best to help you with your issue today.</textarea>
+
+      <button class="center" onclick="myFunction6()">EMPATHY 2</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-moreinfo2">By the way, can I call you by your first name?</textarea>
+
+      <button class="center" onclick="myFunction9()">FIRST NAME</button>
+    </td>
+    <td></td>
+    <td>
+      <textarea class="element_html" id="myInput-idle2">Due to inactivity, we will be closing this chat session. You may restart the chat request, send us an email or call our support line for further assistance.</textarea>
+
+      <button class="center" onclick="myFunction13()">IDLE 2</button>
+    </td>
+    <td></td>
+    <td></td>
+    <td>
+      <textarea class="element_html" id="myInput-dns2">Please be informed that changing Domain Name System (DNS) records will take up to 2-4 hours to successfully propagate.</textarea>
+
+      <button class="center" onclick="myFunction17()">DNS 2</button></td>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-help2">Would there be anything else for today?</textarea>
+
+      <button class="center" onclick="myFunction19()">HELP 2</button></td>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-survey2">And I hope that you can put some comments on the survey with regard to your overall customer service experience with me.</textarea>
+
+      <button class="center" onclick="myFunction21()">SURVEY 2</button></td>
+    </td>
+    <td></td>
+  </tr>
+  <!--End Second Row-->
+
+  <!--Third Row-->
+  <tr>
+    <td>
+      <textarea class="element_html" id="myInput-opening3">Hi, Good day. My name is John. Thank you for contacting us. How may I help you?</textarea>
+
+      <button class="center" onclick="myFunction3()">OPENING 3</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-empathy3">My apologies this has happened. Let me see if I can find a solution to it.</textarea>
+
+      <button class="center" onclick="myFunction7()">EMPATHY 3</button>
+    </td>
+    <td>
+      <textarea class="element_html" id="myInput-moreinfo3">May I also have your first and last name?</textarea>
+
+      <button class="center" onclick="myFunction10()">FULL NAME</button>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+      <textarea class="element_html" id="myInput-survey3">We have recently improved our survey which now only has fewer questions specific to how I assisted you today. We'd be very grateful if you could spare 1 to 2 minutes of your time to complete it as your feedback matters to us. Thank you for your continued business and have a great day.</textarea>
+
+      <button class="center" onclick="myFunction23()">SURVEY 3</button>
+    </td>
+    <td></td>
+  </tr>
+  <!--End Third Row-->
+
+  <!--Fourth Row-->
+  <tr>
+    <td>
+      <textarea class="element_html" id="myInput-opening4">Hi, Good day. My name is John. Thank you for the information. How may I assist you further with this domain?</textarea>
+
+      <button class="center" onclick="myFunction4()">OPENING 4</button>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!--End Fourth Row-->
+</table>
+
+
+<script>
+function myFunction1() {
+
+  var textarea = document.getElementById("myInput-opening1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction2() {
+
+  var textarea = document.getElementById("myInput-opening2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction3() {
+
+  var textarea = document.getElementById("myInput-opening3");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction4() {
+
+  var textarea = document.getElementById("myInput-opening4");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction5() {
+
+  var textarea = document.getElementById("myInput-empathy1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction6() {
+
+  var textarea = document.getElementById("myInput-empathy2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction7() {
+
+  var textarea = document.getElementById("myInput-empathy3");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction8() {
+
+  var textarea = document.getElementById("myInput-moreinfo1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction9() {
+
+  var textarea = document.getElementById("myInput-moreinfo2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction10() {
+
+  var textarea = document.getElementById("myInput-moreinfo3");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction11() {
+
+  var textarea = document.getElementById("myInput-verification1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction12() {
+
+  var textarea = document.getElementById("myInput-idle1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction13() {
+
+  var textarea = document.getElementById("myInput-idle2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction14() {
+
+  var textarea = document.getElementById("myInput-transcript1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction15() {
+
+  var textarea = document.getElementById("myInput-profanity1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction16() {
+
+  var textarea = document.getElementById("myInput-dns1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction17() {
+
+  var textarea = document.getElementById("myInput-dns2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction18() {
+
+  var textarea = document.getElementById("myInput-help1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction19() {
+
+  var textarea = document.getElementById("myInput-help2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction20() {
+
+  var textarea = document.getElementById("myInput-survey1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction21() {
+
+  var textarea = document.getElementById("myInput-survey2");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction22() {
+
+  var textarea = document.getElementById("myInput-closing1");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+function myFunction23() {
+
+  var textarea = document.getElementById("myInput-survey3");
+
+  textarea.select();
+
+  document.execCommand("copy");
+
+}
+
+</script>
+
+</body>
+
+</html>
