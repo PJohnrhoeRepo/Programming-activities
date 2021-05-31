@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bug Tracker</title>
+
+  
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="issuetracker.html">Bug Tracker - Alder</a>
+
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+	<div class="container">
+
+		<label>Full Name: </label>
+		<input type="text" id="fname" placeholder="Prince Johnrhoe Nocos">
+		<br>
+		<br>
+
+		<label>Account/Dept: </label>
+	<select id="accountdept">
+		<option>Cove</option>
+		<option>CSR - Alder</option>
+		<option>TSR&SEO - Alder</option>
+		<option>Billing - Alder</option>
+		<option>IT Dept Addt Task - Alder</option>
+	</select>
+
+		<br>
+		<br>
+
+		<label>Supervisor: </label>
+		<input type="text" id="supervisor">
+		<br>
+		<br>
+
+		<label>IT incharge: </label>
+		<input type="text" id="ITpersonnel">
+		<br>
+		<br>
+
+		<label>Date: </label>
+		<input type="date" id="date">
+		
+		<br>
+		<br>
+
+		<label>Select Tool: </label>
+	<select id="tool">
+		<option>Pando</option>
+		<option>Securenet</option>
+		<option>Wiki</option>
+		<option>Alarm.com</option>
+		<option>COPS</option>
+		<option>Verint</option>
+		<option>Five9</option>
+		<option>Verint</option>
+		<option>Others</option>
+	</select>
+		<br>
+		<br>
+
+		<label>Severity: </label>
+	<select id="severity">
+		<option>Low</option>
+		<option>Moderate</option>
+		<option>High</option>
+	</select>
+		<br>
+		<br>
+
+		<label>Note: </label>
+		<br>
+	<textarea id="note" name="w3review" rows="4" cols="50">
+  </textarea>
+  		<br>
+
+ 		<button class="btn btn-primary" onclick="Verify()">Verify</button>
+ 		<br>
+ 		<br>
+ 		<br>
+
+		<h3 id="checkfname"></h3>
+		<h3 id="checkaccountdept"></h3>
+		<h3 id="checksupervisor"></h3>
+		<h3 id="checkITpersonnel"></h3>
+		<h3 id="checkdate"></h3>
+		<h3 id="checktool"></h3>
+		<h3 id="checkseverity"></h3>
+		<h3 id="checknote"></h3>
+		
+		
+	</div>
+
+
+<script type="text/javascript">
+
+	function Verify() {
+		var Fname = document.getElementById('fname');
+	{
+		document.getElementById('checkfname').innerHTML = "Submitted by: "+fname.value;
+	}
+
+	var accountdeptindex=document.getElementById("accountdept").selectedIndex;
+	var selectaccountdept=document.getElementById("accountdept").options;
+	this.accountdept=selectaccountdept[accountdeptindex].value;
+	document.getElementById('checkaccountdept').innerHTML = "Account/Dept: " + this.accountdept;
+
+	var Fname = document.getElementById('supervisor');
+	{
+		document.getElementById('checksupervisor').innerHTML = "Supervisor: "+supervisor.value;
+	}
+
+	var Fname = document.getElementById('ITpersonnel');
+	{
+		document.getElementById('checkITpersonnel').innerHTML = "IT inchage: "+ITpersonnel.value;
+	}
+
+	var Date = document.getElementById('date');
+	{
+		document.getElementById('checkdate').innerHTML = "Date created: "+date.value;
+	}
+
+	var toolindex=document.getElementById("tool").selectedIndex;
+	var selecttool=document.getElementById("tool").options;
+	this.tool=selecttool[toolindex].value;
+	document.getElementById('checktool').innerHTML = "Tool: " + this.tool;
+	
+
+
+	var severityindex=document.getElementById("severity").selectedIndex;
+	var selectseverity=document.getElementById("severity").options;
+	this.severity=selectseverity[severityindex].value;
+	document.getElementById('checkseverity').innerHTML = "Severity: " + this.severity;
+
+	var Textnote = document.getElementById('note');
+	{
+		document.getElementById('checknote').innerHTML = "Further notes: "+note.value;
+		alert('Please verify your information and submit your ticket number to the IT incharge for assistance. Thank you');
+	}
+
+
+	}
+
+	
+
+</script>
+	
+</html>
